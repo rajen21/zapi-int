@@ -4,13 +4,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc -b && node dist/index.js"
+    "dev": "tsc -b && node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "kafkajs": "^2.2.4"
+    "@prisma/client": "^6.8.2",
+    "@solana/web3.js": "^1.98.2",
+    "@types/bs58": "^4.0.4",
+    "@types/nodemailer": "^6.4.17",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "kafkajs": "^2.2.4",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "prisma": "^6.8.2"
   }
 }

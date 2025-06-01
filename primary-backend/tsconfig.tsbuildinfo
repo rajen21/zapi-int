@@ -1,1 +1,1 @@
-{"root":["./src/config.ts","./src/index.ts","./src/db/index.ts","./src/router/middleware.ts","./src/router/user.ts","./src/router/zap.ts","./src/types/index.ts"],"version":"5.8.2"}
+{"root":["./src/config.ts","./src/index.ts","./src/db/index.ts","./src/router/action.ts","./src/router/middleware.ts","./src/router/trigger.ts","./src/router/user.ts","./src/router/zap.ts","./src/types/index.ts"],"version":"5.8.2"}
